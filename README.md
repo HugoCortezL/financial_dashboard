@@ -6,13 +6,13 @@
 https://www.figma.com/file/RFI8WejVB59m9mfzFEklPf/financial-Dashboard-(Community)?node-id=0%3A43
 
 ### Languages used:
-1 - HTML
-2 - CSS
+* HTML
+* CSS
 
 ### Learnings:
-1 - A litle of linear gradient for div background-color
-2 - A lot of flex box
-3 - Placements within a div
+* A litle of linear gradient for div background-color
+* A lot of flex box
+* Placements within a div
 
 ## PT
 
@@ -24,6 +24,6 @@ https://www.figma.com/file/RFI8WejVB59m9mfzFEklPf/financial-Dashboard-(Community
 * CSS
 
 ### Learnings:
-1 - Um pouco de gradiente linear para cor de fundo de uma div
-2 - Muito de flex box
-3 - Posicionamentos detro de uma div
+* Um pouco de gradiente linear para cor de fundo de uma div
+* Muito de flex box
+* Posicionamentos detro de uma div
