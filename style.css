@@ -1,0 +1,511 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-shadow: none;
+}
+
+body{
+    font-family: "Nunito", "Helvetica", sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+
+aside.left{
+    width: 280px;
+    background-color: #ECEDEF;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    height: 990px;
+}
+
+.logo-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav{
+    width: 188px;
+    margin: auto;
+    margin-top: 22px;
+}
+
+.menu-part1{
+    margin-bottom: 70px;
+}
+
+.duplo-menu-item{
+    width:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.menu-item{
+    width: 77px;
+    height: 81px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu-item-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    background-color: #ECEFF7;
+}
+
+.menu-item-icon.active{
+    background-color: #51459E;
+    box-shadow: 0px 10px 20px 0px #585CE540;
+}
+
+.menu-item-name{
+    display: inline-block;
+    color: #7987A5;
+    font-size: 12px;
+    line-height: 15px;
+    font-weight: bold;
+}
+
+.menu-item-name.active{
+    color: #1C295D;
+}
+
+.menu-part2{
+    margin-bottom: 47px;
+}
+
+aside.right{
+    width: 438px;
+    background-color: #F9FAFF;
+    border-left: 1px solid #F7F8FA;
+}
+
+.right-content{
+    width: 344px;
+    margin: auto;
+    height: 100px;
+}
+
+.menu-direito{
+    width: 100%;
+}
+
+.menu-direito ul{
+    list-style: none;
+    display: flex;
+    margin-bottom: 64px;
+}
+
+.menu-direito ul li{
+    color: #7B7B7B;
+    font-weight: bold;
+}
+
+.menu-direito ul .personal{
+    margin-left: 60px;
+}
+
+.payments{
+    width: 100%;
+}
+
+.payments-menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 21px;
+}
+
+.payments-menu button{
+    width: 105px;
+    height: 47px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+}
+
+.payments-menu button:hover{
+    border: 2px solid #1C295D;
+}
+
+.payment-card{
+    width: 100%;
+    height: 118px;
+    background: linear-gradient(to right, #FFFFFF, #E4EAF299);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.payment-card-content{
+    width: 301px;
+    height: 84px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.payment-card-content .top{
+    display: flex;
+    align-items: center;
+}
+
+.payment-card-content .top .payment-logo{
+    margin-right: 13px;
+}
+
+.payment-card-content .top .name{
+    font-size: 12px;
+    margin-right: 26px;
+}
+
+.payment-card-content .top .arrow{
+    margin-right: 53px;
+}
+
+.payment-card-content .top .number{
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 100px;
+    text-align: center;
+    padding: 0 3px;
+}
+
+.payment-card-content .top .number p{
+    font-size: 14px;
+    line-height: 18px;
+    color: #1B1D4E;
+}
+
+.payment-card-content .bottom{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.payment-card-content .bottom .date{
+    font-size: 12px;
+    line-height: 16px;
+    color: #1B1D4E;
+    font-weight: bold;
+}
+
+.new-transfer{
+    margin-top: 22px;
+    width: 100%;
+    height:50px;
+    background-color: #51459E55;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+}
+
+.new-transfer-edit{
+    width: 40px;
+    height: 40px;
+    background-color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin: 0 68px 0 10px;
+}
+
+.new-transfer-new{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.new-transfer-new img{
+    margin-right: 14px;
+}
+
+.new-transfer-new{
+    font-weight: bold;
+    font-size: 12px;
+    color: #51459E;
+}
+
+.wallets{
+    margin-top: 64px;
+}
+
+.wallets h1{
+    margin-bottom: 33px;
+}
+
+.wallet-container{
+    width: 100%;
+    height: 49px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.wallet-container-simboll{
+    height: 49px;
+    width: 49px;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 11px;
+}
+.wallet-container-simboll.bitcoin{
+    background-color: #FFF3F1;
+}
+
+.wallet-container-simboll.dai{
+    background-color: #FCF6DD;
+}
+
+.wallet-container-simboll.ripple{
+    background-color: #E0F4F8;
+}
+
+.wallet-container-simboll.tether{
+    background-color: #E0F8F2;
+}
+
+.wallet-container-content{
+    display:flex;
+    flex-direction: column;
+    justify-content:space-between;
+    width: 283px;
+}
+
+.wallet-container-content .top, .wallet-container-content .bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.wallet-container-content .top{
+    font-size: 18px;
+    line-height: 20px;
+    color: #5D4E7B;
+    font-weight: bold;
+}
+
+.wallet-container-content .bottom .name{
+    font-size: 10px;
+    line-height: 13px;
+    color: #5D4E7B;
+}
+
+.wallet-container-content .bottom .porcent{
+    font-size: 13px;
+    line-height: 17px;
+    color: #df5050;
+    font-weight: bold;
+}
+
+.wallet-container-content .bottom .porcent.positive{
+    color: #50DFB2;
+}
+
+.center{
+    width: 540px;
+}
+
+.search{
+    margin-top: 13px;
+    margin-bottom: 30px;
+    width: 520px;
+    border-radius: 30px;
+    padding: 15px 10px;
+    border: none;
+    background-color: #F7F8FA;
+    outline: none;
+    font-family: "Nunito", "Helvetica", sans-serif;
+}
+
+.coins{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 540px;
+    overflow-x: scroll;
+    margin-top: 28px;
+}
+
+.coin-container{
+    min-width: 178px;
+    height: 263px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.coin-container.bitcoin{
+    background-color: #FDEDD5;
+    margin-right: 30px;
+}
+
+.coin-container.etherium{
+    background-color: #FDE4F9;
+    margin-right: 30px;
+}
+
+.coin-container.litecoin{
+    background-color: #B5E0E9;
+}
+
+.coin-content{
+    width: 136px;
+    height: 196px;
+}
+
+.coin-content .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.coin-content .top p{
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.coin-content .icon{
+    margin-top: 18px;
+    margin-bottom: 15px;
+}
+
+.coin-content .value p{
+    font-size: 17px;
+    font-weight: bold;
+    color: #3E3C7B;
+    margin-bottom: 10px;
+}
+
+.coin-content .value .coin-usd{
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: bold;
+    color: #3E3C7B;
+}
+
+.latest-activity{
+    margin-top: 30px;
+}
+
+.latest-activity .top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.latest-activity-heading h3{
+    font-size: 22px;
+    font-weight: bold;
+}
+
+.latest-activity-heading p{
+    font-size: 11px;
+    font-weight: bold;
+    color: #6F767E;
+}
+
+.edit a{
+    color: #6F767E;
+}
+
+.options{  
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.options button{
+    width: 41px;
+    height: 41px;
+    border-radius: 10px;
+    border: none;
+}
+
+.options .setting{
+    margin-right: 8px;
+    background-color: #F7F7F9;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.options .plus{
+    background-color: #51459E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.latest-activity-activity{
+    margin-top: 46px;
+}
+
+.activity-container{
+    margin-bottom: 53px;
+    display: flex;
+    align-items: center;
+}
+
+.activity-container .logo{
+    width: 51px;
+    height: 51px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-right: 16px;
+}
+
+.activity-container .logo.insurance{
+    background-color: #1A55AF22;
+}
+
+.activity-container .logo.eletricity{
+    background-color: #FA5F1C22;
+}
+
+.activity-container .text{
+    display: flex;
+    align-items: center;
+}
+
+.activity-container .text .title{
+    margin-right: 30px;
+}
+
+.activity-container .text .title:last-child{
+    margin-right: 0;
+}
+
+.activity-container .text .title .top{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.activity-container .text .title .bottom{
+    font-weight: bold;
+    font-size: 11px;
+    color: #6F767E;
+}
+
+.assinatura{
+    position: absolute;
+    bottom: -350px;
+    left: 10px;
+}
